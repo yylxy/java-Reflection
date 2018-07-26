@@ -1,9 +1,9 @@
-package reflection.java;
+package reflection.factory;
 
 /**
  * 代理模式
  */
-public class ReflectionProxy {
+public class FactoryTest {
     public static void main(String[] args) {
         // 1. 动态生成产品类实例
         Product concreteProduct = Factory.getInstance(ProductA.class);
